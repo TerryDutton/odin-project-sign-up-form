@@ -8,6 +8,57 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Salut, Mundus</h1>
+    <div id="main">
+        <div id="picture-container">
+            <div id="logo-container"></div> <!--https://images.unsplash.com/photo-1625871932734-d17114bbad7f-->
+            <div id="picture-attribution">
+                Photo by <a href="https://unsplash.com/@sallybrad2016">Preethi Viswanathan</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="description">
+                This is not a real online service! 
+                You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started. 
+                <br/>
+                You <em>know</em> you want to.
+            </div>
+            <div id="form-container">
+                <div>Let's do this!</div>
+                <form id="registration-form" action="" method="GET">
+                    <div class="field-wrapper">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="field-wrapper">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name">
+                    </div>
+                    <div class="field-wrapper">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="field-wrapper">
+                        <label for="phone-number">Phone number</label>
+                        <input id="phone-number" type="tel">
+                    </div>
+                    <div class="field-wrapper">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="field-wrapper">
+                        <label for="confirm-password">Confirm password</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </form>
+            </div>
+            <div id="cta-container">
+                <button form="registration-form" type="submit">Create Account</button>
+                <div>
+                    Already have an account? <a>Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
